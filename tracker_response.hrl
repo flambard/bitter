@@ -1,0 +1,11 @@
+-record(tracker_response,
+	{
+	  failure_reason,
+	  warning_message,
+	  interval,
+	  min_interval,
+	  tracker_id,
+	  complete,
+	  incomplete,
+	  peers
+	 }).

@@ -1,0 +1,15 @@
+README for bitter
+
+Note! bitter is far from done. Do not expect it to do anything useful at the moment.
+
+How to use:
+
+Check out the code from git, cd into the new directory and compile the code:
+
+  $ git clone git://github.com/flambard/bitter.git
+  $ cd bitter
+  $ erl -make
+
+Start bitter by calling bitter:start/1 with the name of the torrent file as argument.
+
+  erl> bitter:start("file.torrent").
